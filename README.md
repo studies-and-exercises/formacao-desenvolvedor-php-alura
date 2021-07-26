@@ -37,3 +37,6 @@ if (is_null($request->termo_de_uso) || !$request->termo_de_uso) {
 
  
  
+ 
+ 
+ 
