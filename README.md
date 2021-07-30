@@ -1,7 +1,6 @@
-dd(guest_class($request));
+Verificar variavel
 
- php artisan make:migration create_users_table --create=users
- 
+dd(guest_class($request));
  
  Como verificar se a variavel foi declarada e diferente de NULA.
  isset() irá verificar se a variável está definida, ou seja
