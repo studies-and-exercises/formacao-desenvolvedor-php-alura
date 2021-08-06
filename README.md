@@ -6,13 +6,13 @@ A Formação PHP da Alura é um guia de aprendizado com cursos e conteúdos para
 
 ### PHP
 
-![PPHP](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftecnoblog.net%2F404076%2Fo-que-e-php-guia-para-iniciantes%2F&psig=AOvVaw0IItv0RmHmgSmx1p64dkCq&ust=1628366677184000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJD8tOOYnfICFQAAAAAdAAAAABAD)
+![PPHP](https://tecnoblog.net/wp-content/uploads/2021/01/o_que_e_php_unsplash-700x467.jpg)
 
 <br>
 
 ### 1 - A linguagem PHP
 
-List of resources used in class for this project
+O primeiro passo é entender a linguagem PHP, base de tudo que faremos nessa formação. E, para isso, é essencial desenvolver um conhecimento sólido em da linguagem e a orientação a objetos.
 
 | Curso                     |                                                                   
 | --------------------------- | 
