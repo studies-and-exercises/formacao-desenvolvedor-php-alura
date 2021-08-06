@@ -7,7 +7,7 @@ function sacar(array $conta, float $valorASacar): array
   } else {
     $conta['saldo'] -= $valorASacar;
   }
-  return $conta; // Preciso devolver para chamada da funcao sacar o parametro $conta / pra que seja armazenado em $contasCorrentes['123.456.789-10']
+  return $conta; 
 }
 
 function depositar(array $conta, float $valorADepositar): array

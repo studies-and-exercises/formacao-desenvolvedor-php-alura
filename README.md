@@ -1,41 +1,28 @@
-Verificar variavel
+# Formacao Desenvolvedor PHP
 
-dd(guest_class($request));
- 
- Como verificar se a variavel foi declarada e diferente de NULA.
- isset() irá verificar se a variável está definida, ou seja
- 
- if(isset($variavelnome);
- 
- isset() irá verificar se a variável está definida, ou seja,
+A Formação PHP da Alura é um guia de aprendizado com cursos e conteúdos para você iniciar uma carreira bem sucedida como programador(a) Web PHP. Você vai aprender desde os fundamentos da linguagem junto com as boas práticas e o essencial conhecimento de uma boa modelagem orientada a objetos.
 
-https://stackoverflow.com/questions/12375833/isset-vs-empty-vs-is-null/45389115
+<br>
 
-# Operadores PHP
+### PHP
 
-!=
+![PPHP](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftecnoblog.net%2F404076%2Fo-que-e-php-guia-para-iniciantes%2F&psig=AOvVaw0IItv0RmHmgSmx1p64dkCq&ust=1628366677184000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJD8tOOYnfICFQAAAAAdAAAAABAD)
 
-https://www.w3schools.com/php/php_operators.asp
+<br>
 
-// Verificar se a variavel que esta vindo do request é NULA e se || os dois são verdadeiros tipo_contratacao e pessoa PF e diferente de pessoa Juridica.
- 
- if (is_null($request->tipo_contratacao) || ($request->tipo_contratacao != 'PF' && $request->tipo_contratacao != 'PJ')) 
-Retorna verdadeiro se $ x não for igual a $ y
+### 1 - A linguagem PHP
 
-&&
+List of resources used in class for this project
 
-$x && $y
+| Curso                     |                                                                   
+| --------------------------- | 
+|  Introdução ao PHP: Primeiros passos com a linguagem                                                                                             
+| Avançando com PHP: Arrays, Strings, Função e Web                   
+| Trabalhando com Multibyte String em PHP          
+| Quando usar == ou === em php?           
+| Orientação a Objetos com PHP: Classes, métodos e atributos           
 
-Verdadeiro se $ x e $ y forem verdadeiros
 
-!
-	!$x
-Verdadeiro se $ x não for verdadeiro
 
-if (is_null($request->termo_de_uso) || !$request->termo_de_uso) {
-
- 
- 
- 
  
  
