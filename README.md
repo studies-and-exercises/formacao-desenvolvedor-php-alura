@@ -20,7 +20,8 @@ O primeiro passo é entender a linguagem PHP, base de tudo que faremos nessa for
 | Avançando com PHP: Arrays, Strings, Função e Web                   
 | Trabalhando com Multibyte String em PHP          
 | Quando usar == ou === em php?           
-| Orientação a Objetos com PHP: Classes, métodos e atributos           
+| Orientação a Objetos com PHP: Classes, métodos e atributos      
+| Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces     
 
 
 
