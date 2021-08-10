@@ -6,7 +6,7 @@ A Formação PHP da Alura é um guia de aprendizado com cursos e conteúdos para
 
 ### PHP
 
-![PPHP](https://tecnoblog.net/wp-content/uploads/2021/01/o_que_e_php_unsplash-700x467.jpg)
+![PHP](https://tecnoblog.net/wp-content/uploads/2021/01/o_que_e_php_unsplash-700x467.jpg)
 
 <br>
 
@@ -23,6 +23,13 @@ O primeiro passo é entender a linguagem PHP, base de tudo que faremos nessa for
 | Orientação a Objetos com PHP: Classes, métodos e atributos      
 | Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces     
 
+<br>
+
+### Pilares OOP
+
+![OOP](http://3.bp.blogspot.com/-Por7UjgJSOc/TfopbehjdtI/AAAAAAAAAK0/cDFLBvreXg0/s1600/M.png)
+
+<br>
 
 
  
