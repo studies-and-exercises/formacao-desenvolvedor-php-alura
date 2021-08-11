@@ -1,6 +1,6 @@
 <?php
 
-namespace Modelo;
+namespace Alura\Banco\Modelo;
 
 class Endereco 
 
@@ -22,7 +22,6 @@ class Endereco
       $this->numero = $numero;
     
     }
-
 
       public function recuperaCidade()
       {
