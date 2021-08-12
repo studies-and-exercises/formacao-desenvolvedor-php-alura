@@ -10,7 +10,7 @@ use Alura\Banco\Modelo\Endereco;
 require_once 'autoload.php';
 
 
-$conta = new Conta(
+$conta = new ContaPoupanca(
   new Titular(
     new CPF('128.524.227-10'), 
     'Pedro',  
