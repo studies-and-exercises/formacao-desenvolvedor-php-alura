@@ -6,9 +6,9 @@ class Endereco
 
 {
 
-  private string $cidade;
-  private string $bairro;
-  private string $rua;
+  private string  $cidade;
+  private string   $bairro;
+  private string  $rua;
   private string $numero;
 
 
@@ -44,6 +44,15 @@ class Endereco
       {
             return $this->numero;
       }
+
+
+        public function  __toString(): string
+      
+            {
+      
+            return "{$this->rua}, {$this->numero}, {$this->bairro}, {$this->cidade}"; 
+                  
+            }
 
 
 }

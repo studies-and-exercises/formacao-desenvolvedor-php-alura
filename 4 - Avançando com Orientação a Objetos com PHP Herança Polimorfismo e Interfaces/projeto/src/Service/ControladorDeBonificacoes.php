@@ -13,7 +13,7 @@ class ControladorDeBonificacoes
   public function adicionaBonificacaoDe(Funcionario $funcionario)
 
   {
-
+        
           $this->totalBonificacoes +=  $funcionario->calculaBonificacao();
     
   }
