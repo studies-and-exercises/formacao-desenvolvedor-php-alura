@@ -11,26 +11,15 @@ require_once 'autoload.php';
 
 
 $conta = new ContaPoupanca(
-  new Titular(
-    new CPF('128.524.227-10'), 
-    'Pedro',  
-    new Endereco('Vitoria', 'Porto', 'La', '41')));
+    new Titular(
+        new CPF('128.524.227-10'),
+        'Pedro',
+        new Endereco('Vitoria', 'Porto', 'La', '41')
+    )
+);
 
 $conta->deposita(500);
 
 $conta->saca(100);
 
 echo $conta->recuperaSaldo();
-
-
-
-
-
-
-
-
-
-
-
-
-?>

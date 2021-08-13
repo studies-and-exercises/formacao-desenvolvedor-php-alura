@@ -7,7 +7,7 @@ abstract class Conta
 {
     private $titular;
     protected $saldo;
-    private static $numeroDeContas = 0;    
+    private static $numeroDeContas = 0;
 
     public function __construct(Titular $titular)
     {
@@ -25,8 +25,8 @@ abstract class Conta
     // Adicionar tarifa de 5%
     public function saca(float $valorASacar): void
     {
-        
-       $tarifaSaque = $valorASacar * $this->percentualTarifa();
+
+        $tarifaSaque = $valorASacar * $this->percentualTarifa();
         $valorSaque = $valorASacar + $tarifaSaque;
         if ($valorSaque > $this->saldo) {
             echo "Saldo indisponível";
@@ -68,7 +68,5 @@ abstract class Conta
     }
 
 
-abstract protected function percentualTarifa(): float;
-    
-    
+    abstract protected function percentualTarifa(): float;
 }

@@ -19,17 +19,3 @@ $umDiretor = new Titular(
 
 
 $autenticador->tentaLogin($umDiretor, '1234');
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>

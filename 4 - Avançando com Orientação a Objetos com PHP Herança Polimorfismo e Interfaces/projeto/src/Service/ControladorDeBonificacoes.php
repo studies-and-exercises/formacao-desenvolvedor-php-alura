@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Alura\Banco\Service;
 
@@ -8,40 +8,19 @@ class ControladorDeBonificacoes
 
 {
 
-  private $totalBonificacoes = 0;
-  
-  public function adicionaBonificacaoDe(Funcionario $funcionario)
+    private $totalBonificacoes = 0;
 
-  {
-        
-          $this->totalBonificacoes +=  $funcionario->calculaBonificacao();
-    
-  }
+    public function adicionaBonificacaoDe(Funcionario $funcionario)
 
-    public function recuperaTotal (): float
-  
-          {
-  
-              return $this->totalBonificacoes;
-          }
+    {
 
+        $this->totalBonificacoes +=  $funcionario->calculaBonificacao();
+    }
 
+    public function recuperaTotal(): float
 
-  
+    {
+
+        return $this->totalBonificacoes;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>

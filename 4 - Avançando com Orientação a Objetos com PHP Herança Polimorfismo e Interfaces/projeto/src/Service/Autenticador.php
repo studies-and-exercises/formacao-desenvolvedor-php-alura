@@ -8,22 +8,15 @@ class Autenticador
 {
 
     public function tentaLogin(Autenticavel $autenticavel, string $senha): void
-  
-          {
-  
-          if ($autenticavel->podeAutenticar($senha)) {
-            
+
+    {
+
+        if ($autenticavel->podeAutenticar($senha)) {
+
             echo "ok. Usuario logado com sucesso";
-            
-          } else {
-            
+        } else {
+
             echo "Usuario nao pode logar no sistema.";
-          }
-              
-          }
-
-
-
-
-  
+        }
+    }
 }

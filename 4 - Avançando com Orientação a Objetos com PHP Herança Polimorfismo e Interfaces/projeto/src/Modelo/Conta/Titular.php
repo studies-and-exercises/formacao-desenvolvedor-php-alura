@@ -12,23 +12,21 @@ class Titular extends Pessoa implements Autenticavel
 {
     private $endereco;
 
-    public function __construct(CPF $cpf, string $nome, Endereco $endereco) 
-    
-    
+    public function __construct(CPF $cpf, string $nome, Endereco $endereco)
+
+
     {
         parent::__construct($nome, $cpf);
         $this->endereco = $endereco;
-
     }
 
-        public function recuperaEndereco(): Endereco
-        {
-                return $this->endereco;
-        }
+    public function recuperaEndereco(): Endereco
+    {
+        return $this->endereco;
+    }
 
-        public function podeAutenticar(string $senha): bool
-        {
-            return $senha === "abcd";
-        }
-
+    public function podeAutenticar(string $senha): bool
+    {
+        return $senha === "abcd";
+    }
 }
